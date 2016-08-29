@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C7340E71D73FFFB008B9111 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7340E51D73FFFB008B9111 /* Fabric.framework */; };
+		3C7340E81D73FFFB008B9111 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7340E61D73FFFB008B9111 /* Crashlytics.framework */; };
+		3C95A1661D6E90590059AF87 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C95A1651D6E90590059AF87 /* SystemConfiguration.framework */; };
+		3C95A1691D6E94260059AF87 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C95A1611D6E90390059AF87 /* libc++.tbd */; };
+		3C95A16C1D6E942F0059AF87 /* libKSCrash.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C95A16A1D6E942F0059AF87 /* libKSCrash.a */; };
+		3C95A16D1D6E942F0059AF87 /* libPods-TestKS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C95A16B1D6E942F0059AF87 /* libPods-TestKS.a */; };
+		3C95A16E1D6E94480059AF87 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C95A1631D6E90440059AF87 /* libz.tbd */; };
+		3C95A1701D6E94570059AF87 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C95A16F1D6E94570059AF87 /* MessageUI.framework */; };
 		3CB8A4B31D6D95D400F8ED49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB8A4B21D6D95D400F8ED49 /* main.m */; };
 		3CB8A4B61D6D95D400F8ED49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB8A4B51D6D95D400F8ED49 /* AppDelegate.m */; };
 		3CB8A4B91D6D95D400F8ED49 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB8A4B81D6D95D400F8ED49 /* MasterViewController.m */; };
@@ -16,6 +24,7 @@
 		3CB8A4C41D6D95D400F8ED49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB8A4C21D6D95D400F8ED49 /* LaunchScreen.storyboard */; };
 		3CB8A4CF1D6D95D500F8ED49 /* TestKSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB8A4CE1D6D95D500F8ED49 /* TestKSTests.m */; };
 		3CB8A4DA1D6D95D500F8ED49 /* TestKSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB8A4D91D6D95D500F8ED49 /* TestKSUITests.m */; };
+		E6637E88CF2ED9A4B1957EA2 /* libPods-TestKS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F33FD76A72C50DCFBD46908 /* libPods-TestKS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C7340E51D73FFFB008B9111 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		3C7340E61D73FFFB008B9111 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		3C95A1611D6E90390059AF87 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		3C95A1631D6E90440059AF87 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		3C95A1651D6E90590059AF87 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3C95A1671D6E93240059AF87 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
+		3C95A16A1D6E942F0059AF87 /* libKSCrash.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libKSCrash.a; path = "Pods/../build/Debug-iphoneos/KSCrash/libKSCrash.a"; sourceTree = "<group>"; };
+		3C95A16B1D6E942F0059AF87 /* libPods-TestKS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-TestKS.a"; path = "Pods/../build/Debug-iphoneos/libPods-TestKS.a"; sourceTree = "<group>"; };
+		3C95A16F1D6E94570059AF87 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		3CB8A4AE1D6D95D400F8ED49 /* TestKS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestKS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CB8A4B21D6D95D400F8ED49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3CB8A4B41D6D95D400F8ED49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +72,9 @@
 		3CB8A4D51D6D95D500F8ED49 /* TestKSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestKSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CB8A4D91D6D95D500F8ED49 /* TestKSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestKSUITests.m; sourceTree = "<group>"; };
 		3CB8A4DB1D6D95D500F8ED49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F33FD76A72C50DCFBD46908 /* libPods-TestKS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestKS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C28E2CD0563B8D9C8463876 /* Pods-TestKS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKS.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestKS/Pods-TestKS.release.xcconfig"; sourceTree = "<group>"; };
+		6C400E32A0F6D64CAD7C7826 /* Pods-TestKS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestKS/Pods-TestKS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +82,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C95A1701D6E94570059AF87 /* MessageUI.framework in Frameworks */,
+				3C7340E81D73FFFB008B9111 /* Crashlytics.framework in Frameworks */,
+				3C95A16E1D6E94480059AF87 /* libz.tbd in Frameworks */,
+				3C95A16C1D6E942F0059AF87 /* libKSCrash.a in Frameworks */,
+				3C7340E71D73FFFB008B9111 /* Fabric.framework in Frameworks */,
+				3C95A16D1D6E942F0059AF87 /* libPods-TestKS.a in Frameworks */,
+				3C95A1691D6E94260059AF87 /* libc++.tbd in Frameworks */,
+				3C95A1661D6E90590059AF87 /* SystemConfiguration.framework in Frameworks */,
+				E6637E88CF2ED9A4B1957EA2 /* libPods-TestKS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,10 +114,14 @@
 		3CB8A4A51D6D95D400F8ED49 = {
 			isa = PBXGroup;
 			children = (
+				3C7340E51D73FFFB008B9111 /* Fabric.framework */,
+				3C7340E61D73FFFB008B9111 /* Crashlytics.framework */,
 				3CB8A4B01D6D95D400F8ED49 /* TestKS */,
 				3CB8A4CD1D6D95D500F8ED49 /* TestKSTests */,
 				3CB8A4D81D6D95D500F8ED49 /* TestKSUITests */,
 				3CB8A4AF1D6D95D400F8ED49 /* Products */,
+				3F4ECB9D45D08BCB4197DA7C /* Pods */,
+				B311F0CF696CD182FCF6A66A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,6 +179,30 @@
 			path = TestKSUITests;
 			sourceTree = "<group>";
 		};
+		3F4ECB9D45D08BCB4197DA7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C400E32A0F6D64CAD7C7826 /* Pods-TestKS.debug.xcconfig */,
+				6C28E2CD0563B8D9C8463876 /* Pods-TestKS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B311F0CF696CD182FCF6A66A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C95A16F1D6E94570059AF87 /* MessageUI.framework */,
+				3C95A16A1D6E942F0059AF87 /* libKSCrash.a */,
+				3C95A16B1D6E942F0059AF87 /* libPods-TestKS.a */,
+				3C95A1671D6E93240059AF87 /* libc++abi.tbd */,
+				3C95A1651D6E90590059AF87 /* SystemConfiguration.framework */,
+				3C95A1631D6E90440059AF87 /* libz.tbd */,
+				3C95A1611D6E90390059AF87 /* libc++.tbd */,
+				3F33FD76A72C50DCFBD46908 /* libPods-TestKS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +210,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CB8A4DE1D6D95D500F8ED49 /* Build configuration list for PBXNativeTarget "TestKS" */;
 			buildPhases = (
+				0844D737ED834DE5E79A30BA /* [CP] Check Pods Manifest.lock */,
 				3CB8A4AA1D6D95D400F8ED49 /* Sources */,
 				3CB8A4AB1D6D95D400F8ED49 /* Frameworks */,
 				3CB8A4AC1D6D95D400F8ED49 /* Resources */,
+				C389E61C200176035D3E372A /* [CP] Embed Pods Frameworks */,
+				F8FA175DC8A5002FF1C41C8D /* [CP] Copy Pods Resources */,
+				3C7340E41D73FFC5008B9111 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -207,11 +269,12 @@
 		3CB8A4A61D6D95D400F8ED49 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Cape;
 				TargetAttributes = {
 					3CB8A4AD1D6D95D400F8ED49 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = UWZNG5P6HM;
 					};
 					3CB8A4C91D6D95D400F8ED49 = {
 						CreatedOnToolsVersion = 7.2;
@@ -269,6 +332,67 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0844D737ED834DE5E79A30BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3C7340E41D73FFC5008B9111 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 5d5554c5f1d1d8c2a988c09b495c1811c94e9d80 267c043f5840e8c477567cbc299bead56c4d198f453c643268b6d115aaef1cdb";
+		};
+		C389E61C200176035D3E372A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestKS/Pods-TestKS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8FA175DC8A5002FF1C41C8D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestKS/Pods-TestKS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3CB8A4AA1D6D95D400F8ED49 /* Sources */ = {
@@ -346,8 +470,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -390,8 +516,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -417,23 +545,51 @@
 		};
 		3CB8A4DF1D6D95D500F8ED49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C400E32A0F6D64CAD7C7826 /* Pods-TestKS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TestKS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = im.fir.test.TestKS;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/KSCrash",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = im.fir.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		3CB8A4E01D6D95D500F8ED49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C28E2CD0563B8D9C8463876 /* Pods-TestKS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TestKS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = im.fir.test.TestKS;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/KSCrash",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = im.fir.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -504,6 +660,7 @@
 				3CB8A4E01D6D95D500F8ED49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CB8A4E11D6D95D500F8ED49 /* Build configuration list for PBXNativeTarget "TestKSTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +669,7 @@
 				3CB8A4E31D6D95D500F8ED49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CB8A4E41D6D95D500F8ED49 /* Build configuration list for PBXNativeTarget "TestKSUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +678,7 @@
 				3CB8A4E61D6D95D500F8ED49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

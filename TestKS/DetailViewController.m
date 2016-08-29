@@ -23,6 +23,8 @@
         // Update the view.
         [self configureView];
     }
+    NSArray *array = [NSArray arrayWithObjects: @"1", @"2", nil];
+    array[3];
 }
 
 - (void)configureView {
@@ -36,6 +38,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     [self configureView];
+
 }
 
 - (void)didReceiveMemoryWarning {
