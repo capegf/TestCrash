@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C7340E71D73FFFB008B9111 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7340E51D73FFFB008B9111 /* Fabric.framework */; };
-		3C7340E81D73FFFB008B9111 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7340E61D73FFFB008B9111 /* Crashlytics.framework */; };
 		3C95A1661D6E90590059AF87 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C95A1651D6E90590059AF87 /* SystemConfiguration.framework */; };
 		3C95A1691D6E94260059AF87 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C95A1611D6E90390059AF87 /* libc++.tbd */; };
 		3C95A16C1D6E942F0059AF87 /* libKSCrash.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C95A16A1D6E942F0059AF87 /* libKSCrash.a */; };
@@ -45,8 +43,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3C7340E51D73FFFB008B9111 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
-		3C7340E61D73FFFB008B9111 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		3C95A1611D6E90390059AF87 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		3C95A1631D6E90440059AF87 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		3C95A1651D6E90590059AF87 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -83,10 +79,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C95A1701D6E94570059AF87 /* MessageUI.framework in Frameworks */,
-				3C7340E81D73FFFB008B9111 /* Crashlytics.framework in Frameworks */,
 				3C95A16E1D6E94480059AF87 /* libz.tbd in Frameworks */,
 				3C95A16C1D6E942F0059AF87 /* libKSCrash.a in Frameworks */,
-				3C7340E71D73FFFB008B9111 /* Fabric.framework in Frameworks */,
 				3C95A16D1D6E942F0059AF87 /* libPods-TestKS.a in Frameworks */,
 				3C95A1691D6E94260059AF87 /* libc++.tbd in Frameworks */,
 				3C95A1661D6E90590059AF87 /* SystemConfiguration.framework in Frameworks */,
@@ -114,8 +108,6 @@
 		3CB8A4A51D6D95D400F8ED49 = {
 			isa = PBXGroup;
 			children = (
-				3C7340E51D73FFFB008B9111 /* Fabric.framework */,
-				3C7340E61D73FFFB008B9111 /* Crashlytics.framework */,
 				3CB8A4B01D6D95D400F8ED49 /* TestKS */,
 				3CB8A4CD1D6D95D500F8ED49 /* TestKSTests */,
 				3CB8A4D81D6D95D500F8ED49 /* TestKSUITests */,
@@ -351,7 +343,7 @@
 		};
 		3C7340E41D73FFC5008B9111 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
@@ -360,7 +352,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "./Fabric.framework/run 5d5554c5f1d1d8c2a988c09b495c1811c94e9d80 267c043f5840e8c477567cbc299bead56c4d198f453c643268b6d115aaef1cdb";
+			shellScript = "";
 		};
 		C389E61C200176035D3E372A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
